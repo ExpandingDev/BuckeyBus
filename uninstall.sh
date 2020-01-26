@@ -31,7 +31,6 @@ remove_buckey_bus_user() {
 remove_buckey_directories() {
 	echo "Removing Buckey directories"
 	rm -vrf /etc/buckey
-	rm -vrf /var/run/buckey
 	rm -vrf /var/log/buckey
 	echo "Directories removed."
 }

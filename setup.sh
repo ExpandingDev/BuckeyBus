@@ -41,11 +41,9 @@ create_buckey_bus_user() {
 create_buckey_directories() {
 	mkdir -v -p /etc/buckey
 	mkdir -v -p /etc/buckey/bus
-	mkdir -v -p /var/run/buckey
 	mkdir -v -p /var/log/buckey
 
 	chown buckey /etc/buckey
-	chown buckey /var/run/buckey
 	chown buckey /var/log/buckey
 }
 
